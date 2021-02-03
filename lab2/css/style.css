@@ -1,0 +1,46 @@
+body{
+  padding: 100px;
+}
+.form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.form__field {
+  margin-bottom: 10px;
+}
+.form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  border: 0;
+  background-color: red;
+  color: black;
+}
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+#image{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+#text{
+  font-family: 'Courier New', Courier, monospace;
+}
+#image2{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  right:50px;
+  top: 200px;
+  float: right;
+}
